@@ -1,0 +1,11 @@
+/* INCORPORANDO HOJA DE ESTILOS AL PROYECTO... */
+
+html, body
+{
+    font-family: 'Press Start 2P', cursive;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
