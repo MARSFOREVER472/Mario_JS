@@ -9,3 +9,40 @@ html, body
     margin: 0;
     padding: 0;
 }
+
+.mario-game
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: sans-serif;
+    height: 715px;
+}
+
+/* PARA EL FONDO DEL JUEGO... */
+
+.mario-game #fondo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #6b88ff;
+    z-index: 1;
+}
+
+/* POR CAPAS... */
+
+.capas
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.1s linear;
+    background-size: cover!important;
+}
