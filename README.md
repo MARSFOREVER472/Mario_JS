@@ -1,2 +1,2 @@
-# Mario_JS
+# **_Mario_JS_**
 Videojuego típico de Mario Bros hecho con Vanilla JS (Javascript)...
