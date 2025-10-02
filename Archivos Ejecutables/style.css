@@ -101,3 +101,89 @@ html, body
     animation: jump 1s ease 0s infinite normal;
     /* animation-fill-mode: forwards; */
 }
+
+/* PARA SALTAR... */
+
+@keyframes jump
+{
+    0%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        background-position-x: -1055px;
+    }
+
+    20%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40%
+    {
+        -webkit-transform: translateY(-120px);
+        transform: translateY(-120px);
+    }
+
+    50%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    60%
+    {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+
+    80%
+    {
+        -webkit-transform: translateY(0);
+        background-position: -1055px;
+    }
+
+    100%
+    {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+#mario.lookingLeft
+{
+    background-position-x: -518px;
+}
+
+#mario.lookingRight
+{
+    background-position-x: -610px;
+}
+
+#mario.runningRight
+{
+    animation: rightRunning 0.5s steps(3) infinite;
+    background-position-x: -700px;
+}
+
+#mario.runningLeft
+{
+    animation: leftRunning 0.5s steps(3) infinite;
+    background-position-x: -430px;
+}
+
+@keyframes rightRunning
+{
+    100%
+    {
+        background-position-x: -965px;
+    }
+}
+
+@keyframes leftRunning
+{
+    100%
+    {
+        background-position-x: -165px;
+    }
+}
