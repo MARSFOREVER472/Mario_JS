@@ -78,3 +78,26 @@ html, body
     background: url("https://itc.yananas.com/git/mario/assets/mario_layer_4.gif");
     z-index: 1;
 }
+
+/* PARA EL JUEGO... */
+
+.mario-game #mario
+{
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    height: 72px;
+    width: 71px;
+    transition: left 0.1s linear;
+    z-index: 3;
+    background: url("https://itc.yananas.com/git/mario/assets/mario.png") left center;
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position-y: 25px;
+}
+
+#mario-jumping
+{
+    animation: jump 1s ease 0s infinite normal;
+    /* animation-fill-mode: forwards; */
+}
