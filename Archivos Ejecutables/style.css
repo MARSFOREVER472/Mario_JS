@@ -46,3 +46,35 @@ html, body
     transition: all 0.1s linear;
     background-size: cover!important;
 }
+
+/* PARA LAS HIERBAS FORESTALES... */
+
+#foreground
+{
+    background: url("https://itc.yananas.com/git/mario/assets/mario_layer_1.gif");
+    z-index: 4;
+}
+
+/* PARA LAS PLANTAS... */
+
+#plantas
+{
+    background: url("https://itc.yananas.com/git/mario/assets/mario_layer_2.gif");
+    z-index: 3;
+}
+
+/* PARA LAS MONTAÑAS... */
+
+#montanas
+{
+    background: url("https://itc.yananas.com/git/mario/assets/mario_layer_3.gif");
+    z-index: 2;
+}
+
+/* PARA LAS NUBES... */
+
+#nubes
+{
+    background: url("https://itc.yananas.com/git/mario/assets/mario_layer_4.gif");
+    z-index: 1;
+}
