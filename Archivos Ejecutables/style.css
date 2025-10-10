@@ -33,7 +33,7 @@ html, body
 
 /* PARA EL FONDO DEL JUEGO... */
 
-.mario-game #fondo
+.mario-game #background
 {
     position: absolute;
     top: 0;
@@ -46,7 +46,7 @@ html, body
 
 /* POR CAPAS... */
 
-.capas
+.layer
 {
     position: absolute;
     top: 0;
@@ -67,7 +67,7 @@ html, body
 
 /* PARA LAS PLANTAS... */
 
-#plantas
+#plants
 {
     background: url("https://itc.yananas.com/git/mario/assets/mario_layer_2.gif");
     z-index: 3;
@@ -75,7 +75,7 @@ html, body
 
 /* PARA LAS MONTAÑAS... */
 
-#montanas
+#mountains
 {
     background: url("https://itc.yananas.com/git/mario/assets/mario_layer_3.gif");
     z-index: 2;
@@ -83,7 +83,7 @@ html, body
 
 /* PARA LAS NUBES... */
 
-#nubes
+#clouds
 {
     background: url("https://itc.yananas.com/git/mario/assets/mario_layer_4.gif");
     z-index: 1;
@@ -244,7 +244,7 @@ html, body
     left: 85.5%;
 }
 
-.barraProgreso
+.scorebar
 {
     position: absolute;
     height: 120px;
@@ -260,7 +260,7 @@ html, body
 
 /* POR CADA BLOQUE... */
 
-div #bloque
+div #block
 {
     position: absolute;
     width: 50px;
@@ -272,7 +272,7 @@ div #bloque
 
 /* PARA LAS MONEDAS... */
 
-#monedas
+#coins
 {
     position: absolute;
     z-index: -1;
@@ -281,7 +281,7 @@ div #bloque
     left: 13px;
 }
 
-#monedas.active
+#coins.active
 {
     animation: flip 0.5s normal;
     animation-fill-mode: forwards;

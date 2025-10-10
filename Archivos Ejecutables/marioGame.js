@@ -2,9 +2,9 @@
 
 var container = document.getElementById("container");
 var foreground = document.getElementById("foreground");
-var plants = document.getElementById("plantas");
-var mountains = document.getElementById("montanas");
-var clouds = document.getElementById("nubes");
+var plants = document.getElementById("plants");
+var mountains = document.getElementById("mountains");
+var clouds = document.getElementById("clouds");
 var mario = document.getElementById("mario");
 var items = document.getElementById("items");
 var runningRight = 0;
